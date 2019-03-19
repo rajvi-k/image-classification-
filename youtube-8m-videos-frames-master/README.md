@@ -1,3 +1,9 @@
+I have used a library that extracts videos from the youtube dataset. An alternative to the frame generator command is using the mmpeg library command for all video files in the folder:
+ ffmpeg -i <video_file>.mp4 -vf  fps=<no. of frames per minute to be downloaded>  output%d.jpg
+
+
+
+
 # Youtube-8m Videos and Frames Generator
 This repository contains scripts for downloading videos corresponding to a particular or a few categories of [youtube-8m dataset](https://research.google.com/youtube8m/index.html).
 
